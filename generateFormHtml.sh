@@ -62,7 +62,7 @@ cat<<HTML_dateSelction
 
 </select>
 
-<select name="state" id="state">
+<select name="date" id="date">
 
 HTML_dateSelction
 
