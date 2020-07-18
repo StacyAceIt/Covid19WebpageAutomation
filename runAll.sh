@@ -6,16 +6,17 @@
 #  Created by Tianyu Zhang on 7/17/20.
 #  
 
-chmod 755 getData.sh
-./getData.sh
+chmod 755 bin/getData.sh
+./bin/getData.sh
 
-chmod 755 runGenerateEachStateHtml.sh
-./runGenerateEachStateHtml.sh
+chmod 755 bin/runGenerateEachStateHtml.sh
+./bin/runGenerateEachStateHtml.sh
 
-chmod 755 runGenerateCovid19Html.sh
-./runGenerateCovid19Html.sh
+chmod 755 bin/runGenerateCovid19Html.sh
+./bin/runGenerateCovid19Html.sh
 
-chmod 755 runGenerateFormHtml.sh
-./runGenerateFormHtml.sh
+chmod 755 bin/runGenerateFormHtml.sh
+./bin/runGenerateFormHtml.sh
 
+apachectl start
 
