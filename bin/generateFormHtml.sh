@@ -35,7 +35,7 @@ cat<<HTML_top
         <h1>Covid-19 Data Tracking</h1>
         
         
-        <form>
+        <form action="../bin/formResponse.cgi" method="get">
         <h2><label>Select a State and a Date</label></h2>
 
         <select name="state" id="state">

@@ -6,13 +6,7 @@
 #  Created by Tianyu Zhang on 7/16/20.
 #  
 
-#!/bin/bash
 
-#  Covid19.sh
-#
-#
-#  Created by Tianyu Zhang on 7/15/20.
-# This script create webpages for each state in the US
 state=$1
 
 cat<<HTML_top
